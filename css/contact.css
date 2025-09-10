@@ -1,0 +1,93 @@
+.contact{
+    margin-left: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    gap: 10px;
+}
+
+header{
+    margin-bottom: 3%;
+}
+header h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+header h2{
+    text-align: center;
+    font-size: x-large;
+}
+
+.address{
+    width: 50%;
+    margin-right: auto;
+    border-right: 5px solid rgba(0, 0, 0, 0.149);
+    padding-left: 1%;
+}
+
+.location,
+.email,
+.phone{
+    display: flex;
+    gap: 10px;
+}
+
+.location div,
+.email div,
+.phone div{
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.address img{
+    border-radius: 50%;
+    width: 7%;
+    height: 7%;
+}
+
+.address a{
+    color: black;
+    margin: -3% 0;
+    text-decoration: none;
+}
+
+.address a:hover{
+    color: brown;
+}
+
+.address h3{
+    margin: 10% 0 4%;
+}
+
+.address h4{
+    margin: 3% 0;
+}
+
+.form{
+    width: 50%;
+    padding-left: 1%;
+    margin-left: 1%;
+    /* border: 10px solid wheat; */
+}
+
+textarea,
+input,
+.b,
+label{
+    font-size: x-large;
+    width: 50%;
+    margin: 0.5% 5%;
+}
+
+textarea{
+    height: 100px;
+}
+
+input,
+.b{
+    padding: 0.5%;
+    margin-bottom: 2%;
+}
+
