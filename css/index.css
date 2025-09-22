@@ -1,39 +1,78 @@
+/* Header */
 header{
+
+    /* Background */
     background-image: url("../assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    /* Text */
     font-size: xx-large;
     color: antiquewhite;
-    margin: 5% 0 0 -1%;
+
+    /* Dimenssions */
 }
 
+/* ====================================================================================================================================================== */
+/* The images of food in home page */
 .images{
+
+    /* Dimenssions */
     margin: 5% 0;
-    display: flex;
-    
+
+    /* Display */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
+/* Every single image in home page */
 .images img{
+
+    /*Dimenssions*/
+    width: 95%;
+    height: 80%;
     margin: 1%;
-    width: 33%;
-    height: 25rem;
+
+    /*Border*/
     border: 2px solid black;
     border-radius: 2%;
-}
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
 
-.buttons{
-    margin: 5%;
-    text-align: center;
 }
+/* Buttons in home page */
+.buttons{
+
+    /*Dimenssions*/
+    margin: 5%;
+
+    /* Text */
+    text-align: center;
+
+}
+/* Every single button in home page */
 .buttons button{
-    font-size: x-large;
-    min-width: fit-content;
+
+    /*Dimenssions*/
     width: 25%;
     padding: 1%;
     margin: 2%;
-    background-color: brown;
+
+    /* Text */
+    font-size: x-large;
     color: white;
+
+    /* Background */
+    background-color: wheat;
+
 }
+/* Every single link in button in home page */
 .buttons a{
+
+    /* Text */
     color: white;
+
 }
