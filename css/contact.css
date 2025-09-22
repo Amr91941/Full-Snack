@@ -1,90 +1,113 @@
+/* Page Content */
 .contact{
-    margin-left: 2%;
-    margin-bottom: 5%;
+    /* Display */
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: flex-start; */
+
+    /* Dimenssions */
+    margin: 5% 0 5% 0;
     gap: 10px;
+
 }
 
-header{
-    margin-bottom: 3%;
-}
-header h1{
-    text-align: center;
-    font-size: xx-large;
-}
-
-header h2{
-    text-align: center;
-    font-size: x-large;
-}
-
+/* Contact Info */
 .address{
+
+    /* Dimenssions */
     width: 50%;
     margin-right: auto;
-    border-right: 5px solid rgba(0, 0, 0, 0.149);
     padding-left: 1%;
+
+    /* Border */
+    border-right: 5px solid rgba(0, 0, 0, 0.149);
+
 }
 
+/* Each Contact Info */
 .location,
 .email,
 .phone{
+
+    /* Display */
     display: flex;
+
+    /* Dimenssions */
     gap: 10px;
+
 }
 
-.location div,
-.email div,
-.phone div{
+/* Each Contact Info Details */
+.details{
+
+    /* Display */
     display: inline-block;
+
+    /* Dimenssions */
     margin-bottom: 5%;
+
 }
 
+/* Each Contact Info Details Logo */
 .address img{
-    border-radius: 50%;
+
+    /* Dimenssions */
     width: 7%;
     height: 7%;
+
+    /* Border */
+    border-radius: 50%;
+
 }
 
+/* Each Contact Info Details Link */
 .address a{
-    color: black;
+
+    /* Dimenssions */
     margin: -3% 0;
+
+    /* Text */
     text-decoration: none;
+    color: black;
+
 }
 
+/* Each Contact Info Details Link Hover */
 .address a:hover{
     color: brown;
 }
-
 .address h3{
     margin: 10% 0 4%;
 }
-
 .address h4{
     margin: 3% 0;
 }
 
+/* Contact Form */
 .form{
+
+    /* Dimenssions */
     width: 50%;
     padding-left: 1%;
     margin-left: 1%;
-    /* border: 10px solid wheat; */
+
 }
 
+/* Every input Field in form */
 textarea,
 input,
 .b,
 label{
-    font-size: x-large;
+
+    /* Dimenssions */
     width: 50%;
     margin: 0.5% 5%;
-}
 
+    /* Text */
+    font-size: x-large;
+
+}
 textarea{
     height: 100px;
 }
-
 input,
 .b{
     padding: 0.5%;
