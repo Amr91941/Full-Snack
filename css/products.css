@@ -28,9 +28,8 @@
 .products{
 
     /* Display */
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 25%);
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
