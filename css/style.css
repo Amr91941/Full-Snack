@@ -1,85 +1,188 @@
+/* Fixed Entities */
+:root{
+
+  /* Background */
+  --backgroundColor: rgb(255 239 217);
+  --backgroundColor2: black;
+  --backgroundColor3: burlywood;
+  
+}
+
+/* Body */
 body{
-    background-color: rgb(250, 235, 215);
+
+  /*Background*/
+  background-color: var(--backgroundColor);
 
 }
 
-header{
-    text-align: center;
-    background-color: black;
-    color: white;
-    width: 105%;
-    padding: 1%; 
-    margin: 2% -1%;
-}
-
-.main{
-    color: blue;
-    padding: 1%;
-    text-align: center;
-    background-color: burlywood;
-    margin: -1% -1% 3%; 
-    width: 105%;
-}
-.main h1{
-    display: inline-block;
-    color:black;
-    font-size: xx-large;
-    padding: 3% 9%;
-    margin: -1% 0 -1% -16%;
-    background-color: antiquewhite;
-}
-.main a:hover{
-    color: rebeccapurple;
-}
-
-.pages{
-    background-color: burlywood;
-    color: rgba(0, 0, 0, 0.607);
-    font-size: larger;
-    padding: 2% 3%;
-    margin: 0 2%;
-    border: none;
-}
-.pages.active{
-    color: rgb(0, 0, 0); 
-    border-bottom: 3px solid black;
-    font-size: x-large;
-}
-
+/* ====================================================================================================================================================== */
+/* Links */
 a{
-    color: black;
-    text-decoration: none;
+
+  /* Decoration */
+  text-decoration: none;
+
+  /* Color */
+  color: black;
+
 }
 
+/* ====================================================================================================================================================== */
+/* Navigation Bar */
+.main{
+
+  /* Display */
+  display: grid;
+  grid-template-areas: "header . . . . nav nav nav nav";
+
+
+  /* Position */
+  position: relative;
+
+}
+
+/* Page head */
+.heading{
+
+  /* Display */
+  display: flex;
+
+  /* Position */
+  position: relative;
+  left: 1%;
+  top: -10%;
+
+  /* Text */
+  color: wheat;
+
+}
+/* Page head photo */
+.heading img{
+
+  /* Grid */
+  grid-area: header;
+
+  /* Position */
+  position: relative;
+  left: 1%;
+  top: -10%;
+
+  /* Dimenssions */
+  width: 100px;
+  height: 100px;
+  margin-right: 5%;
+
+}
+
+/* Navigation */
+.nav{
+
+  /* Display */
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-area: button;
+
+  /* Dimenssions */
+  width: 40%;
+  height: 50px;
+
+  /* Background */
+  background-color: var(--backgroundColor3);
+  box-shadow: 5px 5px rgb(190, 149, 95);
+
+  /* Position */
+  position: fixed;
+  right: 0;
+  top: 0;
+  align-items: center;
+  text-align: center;
+
+}
+
+/* Navigation buttons */
+.pages{
+
+  /* Text */
+  color: rgba(0, 0, 0, 0.603);
+  font-size: larger;
+
+  /* Dimenssions */
+  padding: 2% 3%;
+  margin: 0 2% 0 5%;
+
+}
+/* Navigation opened button */
+.pages.active{
+
+  /* Text */
+  font-size: x-large;
+  color: black;
+
+}
+
+/* ====================================================================================================================================================== */
+/* Header */
+header{
+  /* Background */
+  background-color: var(--backgroundColor3);
+
+  /* Text */
+  color: white;
+  text-align: center;
+
+  /* Dimenssion */
+  width: 102%;
+  padding: 5% 0;
+  margin: 0 -1%;
+}
+
+/* ====================================================================================================================================================== */
+/* Footer */
 footer{
-    padding: 1%;
-    margin: 2% -1% -3%;
-    text-align: center;
-    background-color: black;
-    color: rgba(255, 255, 255, 0.832);
-    width: 105%;
-}
+  
+  /* Dimenssions */
+  width: 100%;
+  padding: 1%;
+  margin: 2% -1% -3%;
+  
+  /* Text */
+  text-align: center;
+  color: rgba(255, 255, 255, 0.832);
+    
+  /* Backgrouns */
+  background-color: var(--backgroundColor3);
 
+}
+/* Footer photos */
 footer img{
-    width: 2rem;
-    height: 2rem;
-    padding: 0 1%;
-}
+  
+  /* Dimenssions */
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5%;
 
-.address2{
-    width: 30%;
-    display: inline-block;
 }
-
+/* Footer links */
 footer a{
-    color: aliceblue;
-}
+  
+  /* Text */
+  color: aliceblue;
 
+}
+/* Footer links hover */
 footer a:hover{
-    color: blue;
-}
 
-.social{
-    margin: 3%;
-    font-size: 1.1rem;
+  color: blue;
+
 }
+/* Social Media icons */
+.social{
+    
+  /* Dimenssions */
+  margin: 3%;
+
+  /* Text */
+  font-size: 1.1rem;
+
+} 
