@@ -47,7 +47,7 @@ header{
 .buttons{
 
     /*Dimenssions*/
-    margin: 5%;
+    margin-bottom: 5%;
 
     /* Text */
     text-align: center;
@@ -57,9 +57,9 @@ header{
 .buttons button{
 
     /*Dimenssions*/
-    width: 25%;
+    width: 30%;
     padding: 1%;
-    margin: 2%;
+    margin: 1%;
 
     /* Text */
     font-size: x-large;
