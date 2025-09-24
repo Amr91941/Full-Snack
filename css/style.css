@@ -153,6 +153,10 @@ footer{
   /* Backgrouns */
   background-color: var(--backgroundColor3);
 
+  /* Position */
+  position: absolute;
+  bottom: 0;
+  
 }
 /* Footer photos */
 footer img{
